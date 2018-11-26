@@ -1,0 +1,53 @@
+body{
+	
+	background-image:url("mobile.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+
+}
+.m{
+	color:white;
+}
+input{
+	background-color:lightpink;
+	border-radius:1px 10px 1px 10px;
+	border:rgba(0,0,0,4);
+	padding:6px;
+}
+legend{
+	color:white;
+	font-size:30px;
+}
+.rt{
+	color:white;
+	font-size:60px;
+	font-family:agency fb;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+select{
+	background-color:lightpink;
+border-radius:1px 10px 1px 10px;
+	border:lightwhite;
+	padding:6px;
+}
+textarea{
+		background-color:lightpink;
+	border-radius:1px 20px 1px 20px;
+	border:lightwhite;
+	font-size:17px;
+}
+.mybtn{
+	border-radius:1px 10px 1px 10px;
+	background-color:rgba(0,0,0,0.5);
+	color:white;
+	
+}
+.y{
+	height:40px;
+	width:400px;
+	background-color:rgba(0,0,0,0.5);
+	vertical-align:middle;
+}

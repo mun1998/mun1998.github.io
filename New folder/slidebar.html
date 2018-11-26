@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="slidebar.css" />
+</head>
+<body>
+	<div id="slidebar">
+	<div class="toggle-btn" onclick="toggleslidebar()">
+	<span></span>
+	<span></span>
+	<span></span>
+	</div>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Menu</a></li>
+		<li><a href="#">Contact</a></li>
+		<li><a href="#">About</a></li>
+	</ul>
+	</div>
+	<script>
+function toggleslidebar(){
+document.getElementById("slidebar").classList.toggle('active');
+}
+</script>
+</body>
+</html>

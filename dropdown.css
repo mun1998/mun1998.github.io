@@ -1,0 +1,174 @@
+  #menu{
+	margin:0 auto;
+	padding:0;
+	list-style-type:none;
+width:960px;
+	border-bottom:3px solid orange;
+min-height:50px;
+background-color:rgba(0,0,0,0.1);
+}
+#menu li{
+	float:left;
+	border-right:1px solid #3c3a3a;
+	border-left:1px solid #2f2d2d;
+	position:relative;
+	
+
+}
+#menu li a{
+	background-color:rgba(0,0,0,0);
+	color:white;
+	padding:10px 40px;
+	text-decoration:none;
+	font-family:agency fb;
+	font-size:25px;
+		display:block;
+		font-weight:bold;
+		transition:.3s all ease;
+		
+}
+#menu li a:hover{
+	background-color:orange;
+}
+#menu li:last-child{
+	border-right:none;
+	
+}
+#menu li:first-child{
+	border-left:none;
+}
+#menu li ul{
+	list-style-type:none;
+	padding:0;
+	position:absolute;
+	left:-999999999999999px; 
+
+}
+#menu li:hover ul{
+	left:0;
+}
+#menu li ul li{
+	float:none;
+	border-left:none;
+	border-right:none;
+		border-top:1px solid #3c3a3a;
+	border-bottom:1px solid #2f2d2d;
+	width:200px;
+	position;relative;
+}
+#menu li ul li ul{
+	position:absolute;
+	top:-9999999px;
+}
+#menu li ul li:hover ul{
+	top:0;
+	left:200px;
+}
+body{
+	
+	background-image:url("New folder/nature.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	
+
+}
+h1{
+		font-weight:bold;
+		font-size:80px;
+		color:rgba(0,0,0,0.13);
+		margin-top:250px;
+	
+	}*{
+	margin:0;
+	padding:0;
+	
+	
+	
+	
+	text-decoration:none;
+}
+#slidebar{
+	width:165px;
+	height:100%;
+	position:fixed;
+	background-color:rgba(0,0,0,0.2);
+	left:-165px;
+	transition:all 500ms linear;
+
+	
+}
+#slidebar.active{
+	left:0px;
+}
+#slidebar ul li{
+	color:rgba(230,230,230,0.9);
+	list-style:none;
+	padding:10px 15px;
+	border-bottom:4px solid black;
+	border-top:2px solid white;
+
+	
+}
+
+#slidebar .toggle-btn{
+	position:absolute;
+	left:170px;
+	top:5px;
+	
+	
+}
+#slidebar .toggle-btn span{
+	display:block;
+	width:30px;
+	height:5px;
+	background:#151719;
+	margin:3px 0px;
+background-color:rgba(0,0,0,0.3);
+}#footer{
+	background-color:rgba(0,0,0,0.25);
+	text-align:center;
+	font-weight:bolder;
+	font-family:arial;
+	font-size:17px;
+	padding:10px;
+	margin-top:473px;
+	display:fixed;
+	float:overflow;
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+.mun{
+	border-radius:1px 10px 1px 10px;
+padding:5px;
+background-color:skyblue;
+
+}
+p{
+	font-size:20px;
+}
+body{
+	text-align:center;
+}
+h1{
+	color:skyblue;
+	font-size:20px;
+}
+.m{
+	border-radius:1px 10px 1px 10px;
+	height:30px;
+	width:80px;
+	background-color:lightpink;
+}
+h2{
+	color:skyblue;
+	font-size:20px;
+}
+h5{
+	font-size:20px;
+	color:skyblue;
+}
+button{
+	border-radius:5px;
+	
+	
+}
+h3{
+	font-family:agency fb;
+	font-size:18px;
+}
+.press{
+	color:black;
+	text-decoration:none;
+}
